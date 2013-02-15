@@ -1,0 +1,13 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_menu", 
+  "value": [
+    "function [[%d]]_menu(){", 
+    "\t", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}

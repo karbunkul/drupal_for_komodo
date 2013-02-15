@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_block_info", 
+  "value": [
+    "/**", 
+    " * Implements hook_block_info().", 
+    " */", 
+    "", 
+    "function [[%d]]_block_info(){", 
+    " $blocks[''] = array(", 
+    "  'info' => t(''),", 
+    "  'cache' => DRUPAL_NO_CACHE,", 
+    " );", 
+    "", 
+    " return $blocks;", 
+    "}", 
+    "!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "false"
+}

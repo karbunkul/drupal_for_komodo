@@ -1,0 +1,23 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "hook_theme", 
+  "value": [
+    "/**", 
+    " * Implements hook_theme().", 
+    " */", 
+    " ", 
+    "function [[%d]]_theme($existing, $type, $theme, $path){", 
+    " $themes = array(", 
+    "  '[[%ask:Template name:%d]]' => array(", 
+    "   'template' => 'template/',", 
+    "   ),", 
+    " );", 
+    " ", 
+    " return $themes;", 
+    "}!@#_currentPos!@#_anchor"
+  ], 
+  "set_selection": "false", 
+  "version": "1.0.7", 
+  "type": "snippet", 
+  "indent_relative": "true"
+}
